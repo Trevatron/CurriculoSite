@@ -7,7 +7,6 @@ body {
   background-image: linear-gradient(#092079, #949393);
 }
 nav {
-position: fixed;
   background: #0024e2;
   color: #fff;
   height: 40px;
