@@ -1,0 +1,68 @@
+ï»¿<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Documento sem tÃ­tulo</title>
+<style type="text/css">
+label {
+	display:block;
+	padding:10px;
+}
+
+
+</style>
+</head>
+
+<body>
+<form action="mailto:seuemail@provedor.com.br" method="post" name="form" enctype="multipart/form-data">
+	<label>Nome:
+    <input type="text" title="Preencha seu nome" name="nome" placeholder="SEU NOME" required>
+    </label>
+    <label>E-mail:
+    <input type="email" placeholder="seuemail@provedor.com.br" name="email" required>
+    </label>
+    <label>Senha:
+    <input type="password" placeholder="sua senha" name="senha" maxlength="6" id="senha" required>
+    </label>
+    <label>Arquivo:
+    <input type="file" name="arquivo"> 
+    </label>
+    <label>Numeros:
+    <input type="number" placeholder="0" name="idade" min="0" max="100" required>
+    </label>
+    <label>Data:
+    <input type="date"  name="data">
+    </label>
+    <label>Quero um(a):
+    	<select name="opc">
+        	<option disabled selected>Escolha uma opÃ§Ã£o</option>
+        	<option value="Casa">Casa</option>
+            <option value="Apartamento">Apartamento</option>
+            <option value="SÃ­tio">SÃ­tio</option>
+            <option value="BangalÃ´">BangalÃ´</option>
+        </select>
+    </label>
+    <label>Quero um(a):
+    	<select name="opc" size="5">
+        	<option value="Casa">Casa</option>
+            <option value="Apartamento">Apartamento</option>
+            <option value="SÃ­tio">SÃ­tio</option>
+            <option value="BangalÃ´">BangalÃ´</option>
+        </select>
+    </label>
+    <label>Cursos :
+    <input type="checkbox" name="cursos" value="HTML5"> HTML5 
+    <input type="checkbox" name="cursos" value="CSS3"> CSS3
+    </label>
+    <label>Sexo :
+    <input type="radio" name="sexo" value="Feminino" checked> Feminino 
+    <input type="radio" name="sexo" value="Masculino"> Masculino
+    </label>
+    <label>mensagem:
+    <textarea cols="50" rows="7" name="mensagem"></textarea>
+    </label>  	
+    <input type="submit" value="Enviar formulÃ¡rio"> 
+    <input type="reset" value="Limpar formulÃ¡rio"> 
+</form>
+</body>
+</html>
