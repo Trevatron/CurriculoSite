@@ -8,8 +8,6 @@ body {
 }
 nav {
 position: fixed;
-  bottom: 100px;
-  right: 0;
   background: #0024e2;
   color: #fff;
   height: 40px;
