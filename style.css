@@ -14,20 +14,21 @@ nav {
 }
 
 .menu {
-
   list-style: none;
   height: 40px;
   font-family: "Play", sans-serif;
   width: 800px;
   margin: 0 auto;
-position: fixed;
+ position: fixed;
+  right: 0;
+  top: 50%;
+  width: 8em;
+  margin-top: -2.5em;
 }
 .menu li {
-	position: fixed;
   float: left;
 }
 .menu li a {
-	position: fixed;
   text-decoration: none;
   padding: 10px 40px;
   line-height: 40px;
